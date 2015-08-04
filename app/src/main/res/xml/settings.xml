@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General settings">
+        <EditTextPreference
+            android:key="pref_username"
+            android:summary="Shows the current username setted"
+            android:title="User name"/>
+
+        <CheckBoxPreference
+            android:key="pref_viewimages"
+            android:summary="Determines whether images are shown hehe"
+            android:title="View Images"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
